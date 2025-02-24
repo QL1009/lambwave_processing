@@ -9,7 +9,7 @@ A project to processed lambwave receievd from your sensors.
 git init # 初始化
 ~/.ssh # 检查ssh连接情况
 ssh -T git@github.com
-ssh-keygen -t -rsa -C "**YOUR MAIL**" （3 times ENTER）
+ssh-keygen -t -rsa -C "**YOUR MAIL**" (Then 3 times ENTER)
 ```
 ## 同步方法
 ### situation 1 ：完整上传本地已有项目
@@ -23,8 +23,8 @@ git push -u master main # 上传
 ```
 git add .  # 添加所有文件到暂存区
 git commit -m '提交的文字描述'  # 从暂存区提交
-git pull main main    # 拉取最新状态到本地
-git push main main  # 推送到远程仓库
+git pull main master    # 拉取最新状态到本地
+git push main master  # 推送到远程仓库
 ```
 ## 其他关键命令
 ```
