@@ -1,7 +1,7 @@
 # 用于超声扫描图像分析的简易项目
 A project to processed lambwave receievd from your sensors.
+*To write down my learning trace of git cmd and markdown format.*
 
-To write down my learning trace of git cmd and markdown format.
 ---
 ## 新建本地仓库并与远端连接
 ```
