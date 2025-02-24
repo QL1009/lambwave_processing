@@ -5,13 +5,13 @@ git init #初始化
 ssh -T git@github.com
 # ssh-keygen -t -rsa -C "YOUR MAIL" （3 times ENTER）
 
-# 完整上传本地已有项目
+# situation 1 完整上传本地已有项目
 git remote add main git@github.com:QL1009/lambwave_processing.git # 建立连接关系
 git remote -v # 检查连接状态
 git branch -M master # 修改本地分支名称
 git push -u master main # 上传
 
-# 修改项目并上传
+# situation 2 修改项目并上传
 git add .  # 添加所有文件到暂存区
 git commit -m '提交的文字描述'  # 从暂存区提交
 git pull main main    # 拉取最新状态到本地
