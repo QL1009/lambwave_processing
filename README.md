@@ -48,3 +48,6 @@ git commit -m '提交的文字描述'  # 从暂存区提交
 git pull main main    # 拉取最新状态到本地
 git push main main  # 推送到远程仓库
 ```
+## 分支同步到本地
+git fetch main
+git reset --hard main/main
