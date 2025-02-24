@@ -2,8 +2,8 @@
 A project to processed lambwave receievd from your sensors.
 
 ## 新建本地仓库并与远端连接
-  git init # 初始化
-  ~/.ssh # 检查ssh连接情况
+  - git init # 初始化
+  - ~/.ssh # 检查ssh连接情况
   ssh -T git@github.com
   ssh-keygen -t -rsa -C "YOUR MAIL" （3 times ENTER）
 
