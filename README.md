@@ -1,4 +1,4 @@
-# 用于超声扫描图像处理的简易项目
+# 用于超声扫描图像处理的简易项目*
 A project to processed lambwave receievd from your sensors.
 
 *To write down my learning trace of git cmd and markdown format.*
