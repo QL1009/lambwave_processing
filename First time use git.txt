@@ -1,4 +1,3 @@
-#############
 git init
 ~/.ssh
 ssh -T git@github.com
