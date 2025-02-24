@@ -1,5 +1,5 @@
 # 用于超声扫描图像分析的简易项目
-A project to processed lambwave receievd from your sensors.
+A project to processed lambwave receievd from your sensors.<dr>
 ***To write down my learning trace of git cmd and readme format.***
 ---
 ## 新建本地仓库并与远端连接
