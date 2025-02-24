@@ -1,4 +1,4 @@
-git init
+git init #初始化
 ~/.ssh
 ssh -T git@github.com
 # ssh-keygen -t -rsa -C "YOUR MAIL" （3 times ENTER）
