@@ -1,0 +1,19 @@
+git init
+~/.ssh
+ssh -T git@github.com
+# ssh-keygen -t -rsa -C "YOUR MAIL" （3 times ENTER）
+
+git remote add main git@github.com:QL1009/lambwave_processing.git
+
+
+git add .  # 添加所有文件到暂存区
+git commit -m '提交的文字描述'  # 从暂存区提交
+git push origin test-branch1  # 推送到远程仓库
+
+
+
+git status  # 查看当前分支修改的文件
+git branch A  # 创建分支 A
+git checkout A  # 切换分支到 A
+git branch -D A  # 删除本地分支 A
+git diff  # 查询当前分支代码与远程代码仓库的区别
