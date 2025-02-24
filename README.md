@@ -1,4 +1,4 @@
-# 用于超声扫描图像分析的简易项目
+# 用于超声扫描图像处理的简易项目
 A project to processed lambwave receievd from your sensors.
 
 *To write down my learning trace of git cmd and markdown format.*
@@ -12,14 +12,14 @@ ssh -T git@github.com
 ssh-keygen -t -rsa -C "**YOUR MAIL**" (Then 3 times ENTER)
 ```
 ## 同步方法
-### situation 1 ：完整上传本地已有项目
+### Situation 1 ：完整上传本地已有项目
 ```
 git remote add main git@github.com:**URL**.git # 建立连接关系
 git remote -v # 检查连接状态
 git branch -M master # 修改本地分支名称
 git push -u master main # 上传
 ```
-### situation 2 ：修改本地项目并上传
+### Situation 2 ：修改本地项目并上传
 ```
 git add .  # 添加所有文件到暂存区
 git commit -m '提交的文字描述'  # 从暂存区提交
