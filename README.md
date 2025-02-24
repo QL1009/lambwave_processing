@@ -1,9 +1,9 @@
 # 用于超声扫描图像分析的简易项目
 A project to processed lambwave receievd from your sensors.
-
+---
 ## 新建本地仓库并与远端连接
-  - git init # 初始化
-  - ~/.ssh # 检查ssh连接情况
+  git init # 初始化
+  ~/.ssh # 检查ssh连接情况
   ssh -T git@github.com
   ssh-keygen -t -rsa -C "YOUR MAIL" （3 times ENTER）
 
@@ -32,7 +32,7 @@ A project to processed lambwave receievd from your sensors.
   git checkout tcms/handlers.py  # 撤销单个文件修改
   git remote -v # 检查连接状态
 
-
+---
 ## 一般修改流程
   git status  # 查看当前分支修改的文件
   git add .  # 添加所有文件到暂存区
