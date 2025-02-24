@@ -51,5 +51,5 @@ git push main main  # 推送到远程仓库
 ## 分支同步到本地
 ```
 git fetch main
-git reset --hard main/main
+git reset --hard main/main # 仓库/分支
 ```
